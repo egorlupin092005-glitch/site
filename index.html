@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Портфолио Егора Лупина. NFCtag, макеты для Coffee Cult и настольный прототип «Глаза».">
+  <meta name="theme-color" content="#f7f7f1">
+  <title>Егор Лупин · Портфолио</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержанию</a>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="./" aria-label="Егор Лупин, главная"><span aria-hidden="true">ЕЛ</span></a>
+      <nav aria-label="Разделы портфолио">
+        <a href="#projects">Проекты</a>
+        <a href="#skills">Навыки</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="name">
+      <div class="hero-copy">
+        <p class="eyebrow availability">Открыт к удалённой работе</p>
+        <h1 id="name">Егор Лупин</h1>
+        <p class="role">Бизнес-ассистент<br class="role-break"> / помощник основателя</p>
+        <p class="intro">Могу собрать и сравнить варианты, подготовить материалы для клиента или показать идею в рабочем прототипе.</p>
+        <div class="actions">
+          <a class="button button-primary" href="#projects">Смотреть проекты</a>
+          <a class="button button-outline" href="https://t.me/whismym1">Написать в Telegram</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="assets/nfctag-stand.webp" width="960" height="640" alt="Пять вариантов оформления NFC-стоек на стойке кофейни" fetchpriority="high">
+        <figcaption>NFCtag / мокапы стоек для отзывов</figcaption>
+      </figure>
+    </section>
+
+    <section class="projects container" id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Избранные проекты</h2>
+      <article class="feature">
+        <div class="case-content">
+          <p class="eyebrow">Продукт для малого бизнеса</p>
+          <h3>NFCtag</h3>
+          <p>Как показать владельцу кофейни, что увидит гость после касания телефона к NFC-метке? Собрал витрину с примерами стоек и интерактивными версиями меню, визитки и страницы заявки.</p>
+          <p class="stack">Next.js · React · TypeScript · CSS</p>
+          <div class="actions">
+            <a class="button button-light" href="https://m1tski.gitverse.site/nfctag-site/">Открыть витрину</a>
+            <a class="text-link" href="https://github.com/egorlupin092005-glitch/nfctag">Исходники NFCtag</a>
+          </div>
+        </div>
+        <figure class="feature-visual">
+          <a href="assets/nfc.webp" aria-label="Открыть скриншот витрины NFCtag">
+            <img src="assets/nfc.webp" width="1100" height="773" alt="Скриншот сайта NFCtag с NFC-стойками и примерами цифровых страниц" loading="lazy">
+          </a>
+        </figure>
+      </article>
+
+      <div class="case-grid">
+        <article class="case">
+          <div class="case-visual cards-visual">
+            <a href="assets/cards.webp" aria-label="Открыть изображение макетов для Coffee Cult">
+              <img src="assets/cards.webp" width="1100" height="733" alt="Три макета NFC-карточек для Coffee Cult" loading="lazy">
+            </a>
+          </div>
+          <div class="case-content">
+            <p class="eyebrow">Графический дизайн</p>
+            <h3>Карточки для Coffee Cult</h3>
+            <p>Подготовил три варианта карточки, которая предлагает гостю оставить отзыв. В проекте есть превью, PDF для печати и редактируемые SVG.</p>
+            <p class="stack">SVG · PDF · Figma</p>
+            <a class="text-link" href="https://github.com/egorlupin092005-glitch/nfc-card-designs">Посмотреть макеты</a>
+          </div>
+        </article>
+        <article class="case">
+          <div class="case-visual glaza-visual">
+            <a href="assets/glaza.webp" aria-label="Открыть скриншот приложения «Глаза»">
+              <img src="assets/glaza.webp" width="1100" height="801" alt="Интерфейс настольного приложения «Глаза»" loading="lazy">
+            </a>
+          </div>
+          <div class="case-content">
+            <p class="eyebrow">Инженерный прототип</p>
+            <h3>«Глаза»</h3>
+            <p>Приложение отслеживает ладонь через веб-камеру и показывает, куда должен повернуться настольный указатель. Интерфейс можно посмотреть без подключённой Arduino.</p>
+            <p class="stack">Python · MediaPipe · OpenCV · PySide6 · Arduino</p>
+            <a class="text-link" href="https://github.com/egorlupin092005-glitch/glaza">Посмотреть проект «Глаза»</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills container" id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Что я умею</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Искать и сравнивать</h3>
+          <p>Собираю информацию из открытых источников, выделяю критерии и свожу варианты в таблицу. Работаю с базовыми функциями Excel.</p>
+        </div>
+        <div>
+          <h3>Готовить материалы</h3>
+          <p>Оформляю макеты, презентации и инструкции, по которым можно быстро понять суть проекта и посмотреть результат.</p>
+        </div>
+        <div>
+          <h3>Проверять идеи</h3>
+          <p>Собираю простые сайты и интерактивные демо, чтобы показать сценарий использования и собрать обратную связь.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-inner">
+      <div>
+        <h2>Обсудим работу?</h2>
+        <p>Открыт к удалённой роли в небольшой команде или напрямую с основателем.</p>
+      </div>
+      <div class="actions">
+        <a class="button button-primary" href="https://t.me/whismym1">Telegram</a>
+        <a class="button button-outline" href="https://github.com/egorlupin092005-glitch">GitHub</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
